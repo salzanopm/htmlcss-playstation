@@ -54,7 +54,7 @@ a {
 
 .navbar_li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 4px;
 }
 
 .navbar_ul {
@@ -72,7 +72,7 @@ a {
 
 .icon_lens {
     width: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 /* jumbotron */
@@ -88,7 +88,6 @@ a {
 .box_returnal {
     position: absolute;
     bottom: 0;
-    left: 12px;
     width: 80%;
     margin-bottom: 50px;  
     /* test */
@@ -96,7 +95,6 @@ a {
 }
 
 .img_returnal_logo {
-    
     width: 200px;
     margin-bottom: 20px;
 }
@@ -107,14 +105,18 @@ a {
 }
 
 /* first section */
-.ms_presentation > .container-fluid > .row.row-cols-2.row-cols-sm-3.row-cols-lg-6 > .col > img {
+.ms_presentation > .container > .row.row-cols-2.row-cols-sm-3.row-cols-lg-6 > .col > img {
     border-radius: 20px;
     padding: 3px;
-    width: 80%;
+    width: 100%;
 }
 
 .row.row-cols-2.row-cols-sm-3.row-cols-lg-6 > .col:first-child > img {
     border: 2px solid #0072ce;
+}
+
+.ms_presentation {
+    margin: 30px 0 80px 0;
 }
 
 
