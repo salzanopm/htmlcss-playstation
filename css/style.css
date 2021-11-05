@@ -2,6 +2,9 @@
 img {
     width: 100%;
 }
+a {
+    text-decoration: none;
+}
 
 /* HEADER */
 /* header top */
@@ -12,16 +15,107 @@ img {
     padding: 5px 10px;
 }
 
-.box_logo {
+.box_logo_sony {
     width: 75px;
     height: 100%;
     display: inline-block;
     position: relative;
 }
 
-.img_logo {
+.img_logo_sony {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* header bottom */
+
+.header_bottom {
+    margin-top: 10px;
+}
+.img_logo_playstation {
+    width: 50px;
+}
+
+.fa-bars {
+    color: grey;
+    margin: 10px 10px;
+}
+.border_bars {
+    width: 30px;
+    height: 30px;
+    border: 1px solid lightgrey;
+}
+
+.icon_chevron {
+    width: 10px;
+}
+
+.navbar_li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.navbar_ul {
+    display: inline-block;
+}
+
+.navbar_li > a {
+    color:black;
+    font-weight: bold;
+}
+
+.btn-secondary {
+    background-color: #363636;
+}
+
+.icon_lens {
+    width: 20px;
+    margin-left: 20px;
+}
+
+/* jumbotron */
+.ms_jumbotron {
+    background-image: url('../img/jumbo-bg.png');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.box_returnal {
+    position: absolute;
+    bottom: 0;
+    left: 12px;
+    width: 80%;
+    margin-bottom: 50px;  
+    /* test */
+    color: white;
+}
+
+.img_returnal_logo {
+    
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.p_box_returnal {
+    display: inline-block;
+    width: 100%;
+}
+
+/* first section */
+.ms_presentation > .container-fluid > .row.row-cols-2.row-cols-sm-3.row-cols-lg-6 > .col > img {
+    border-radius: 20px;
+    padding: 3px;
+    width: 80%;
+}
+
+.row.row-cols-2.row-cols-sm-3.row-cols-lg-6 > .col:first-child > img {
+    border: 2px solid #0072ce;
+}
+
+
+
