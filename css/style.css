@@ -157,8 +157,31 @@ a {
 .third_section {
     background-color: #1f1f1f;
     color: white;
+    padding-bottom: 40px;
 }
 
 .third_section_row > .col > img {
-    padding: 3px;
+    border-radius: 20px;
+}
+
+/* fourth section */
+/* fifth section */
+.ms_banner_third_section {
+    position: relative;
+    background-color: #bebcbb;
+    height: 245.95px;
+}
+
+.box_returnal {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    margin-bottom: 50px;  
+    /* test */
+    color: white;
+}
+
+.img_returnal_logo {
+    width: 200px;
+    margin-bottom: 20px;
 }
