@@ -6,6 +6,25 @@ a {
     text-decoration: none;
 }
 
+.box_banner {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    margin-bottom: 50px;  
+    /* test */
+    color: white;
+}
+
+.img_banner_logo {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.p_box_banner {
+    display: inline-block;
+    width: 100%;
+}
+
 /* HEADER */
 /* header top */
 .header_top {
@@ -85,6 +104,41 @@ a {
     position: relative;
 }
 
+
+
+/* first section */
+.ms_presentation > .container > .wrapper_img_ratchet_returnal > .row.row-cols-2.row-cols-sm-3.row-cols-lg-6.g-2> .col > img {
+    border-radius: 20px;
+    padding: 3px;
+    width: 100%;
+}
+
+.row.presentation_row> .col:first-child > img {
+    border: 2px solid #0072ce;
+}
+
+.ms_presentation {
+    margin-top:  30px;
+}
+
+.wrapper_img_ratchet_returnal {
+    margin-bottom: 80px;
+}
+
+.img_playstation_console {
+    width: 100%;
+}
+/* second section */
+/* banner */
+.ms_banner_second_section {
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
 .box_returnal {
     position: absolute;
     bottom: 0;
@@ -99,25 +153,12 @@ a {
     margin-bottom: 20px;
 }
 
-.p_box_returnal {
-    display: inline-block;
-    width: 100%;
+/* third section */
+.third_section {
+    background-color: #1f1f1f;
+    color: white;
 }
 
-/* first section */
-.ms_presentation > .container > .row.row-cols-2.row-cols-sm-3.row-cols-lg-6 > .col > img {
-    border-radius: 20px;
+.third_section_row > .col > img {
     padding: 3px;
-    width: 100%;
 }
-
-.row.row-cols-2.row-cols-sm-3.row-cols-lg-6 > .col:first-child > img {
-    border: 2px solid #0072ce;
-}
-
-.ms_presentation {
-    margin: 30px 0 80px 0;
-}
-
-
-
