@@ -80,7 +80,7 @@ h4 {
 
 /* mediaquery */
 @media (max-width: 992px) {
-    .img_banner_logo {
+    .common_box_logo {
         width: 60%;
     }
     
