@@ -284,7 +284,7 @@ footer {
 /* mediaquery */
 @media (max-width: 576px) {
     .row_social > .col > img {
-        width: 100%;
+        width: 90%;
     } 
 }
 
