@@ -230,7 +230,7 @@ header {
 .third_section {
     background-color: #1f1f1f;
     color: white;
-    padding-bottom: 40px;
+    padding: 40px 0;
 }
 
 .third_section_row > .col > img {
