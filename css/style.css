@@ -35,11 +35,11 @@ h4 {
 }
 
 .common_text_small {
-    font-size: 17px;
+    font-size: 15px;
 }
 
-.text_xsmall {
-    font-size: 10px;
+.common_text_xsmall {
+    font-size: 13px;
 }
 
 .text_special {
@@ -103,6 +103,11 @@ h4 {
 }
 
 /* HEADER */
+header {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
 /* header top */
 .header_top {
     background-color: black;
@@ -128,7 +133,8 @@ h4 {
 /* header bottom */
 
 .header_bottom {
-    margin-top: 10px;
+    background-color: white;
+    padding-top: 10px;
 }
 .img_logo_playstation {
     width: 50px;
@@ -299,4 +305,8 @@ footer {
 
 .icon_globe {
     width: 10px;
+}
+
+.copyright_footer {
+    text-decoration: underline;
 }
