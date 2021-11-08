@@ -35,7 +35,7 @@ h4 {
 }
 
 .common_text_small {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .common_text_xsmall {
@@ -69,25 +69,21 @@ h4 {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    padding: 50px 0;
+    padding: 100px 0;
+    background-position-y: 100px;
 }
 
-
 .img_type_1_banner_logo {
-    margin-top: 150px;
-    width: 50%;
+    margin-top: 280px;
+    width: 60%;
 }
 
 /* mediaquery */
 @media (max-width: 992px) {
     .common_box_logo {
         width: 60%;
-    }
-    
-}
-/* type 2 */
-*[class^="ms_common_type_2_banner"] {
-    
+    } 
+
 }
 
 .img_type_2_banner_logo {
@@ -98,8 +94,7 @@ h4 {
 @media (max-width: 768px) {
     .common_box_logo {
         margin: 50px 0;
-    }
-    
+    }   
 }
 
 /* HEADER */
@@ -131,11 +126,11 @@ header {
 }
 
 /* header bottom */
-
 .header_bottom {
     background-color: white;
     padding-top: 10px;
 }
+
 .img_logo_playstation {
     width: 50px;
 }
@@ -144,6 +139,7 @@ header {
     color: grey;
     margin: 10px 10px;
 }
+
 .border_bars {
     width: 30px;
     height: 30px;
@@ -176,12 +172,13 @@ header {
     width: 20px;
     margin-left: 10px;
 }
+
+/* MAIN */
+
 /* jumbotron */
 *[class*="_jumbotron"] {
     background-image: url("../img/jumbo-bg.png");
 }
-
-/* MAIN */
 
 /* first section */
 .ms_presentation > .container > .wrapper_img_ratchet_returnal > .row.row-cols-2.row-cols-sm-3.row-cols-lg-6.g-2> .col > img {
@@ -190,12 +187,8 @@ header {
     width: 100%;
 }
 
-.ms_selected {
-   
-}
 .opacity {
     opacity: .5;
-    
 }
 
 .row.presentation_row> .col:first-child > img {
@@ -211,10 +204,15 @@ header {
 }
 
 .img_play_acessories {
-    width: 50%;
-    
+    width: 60%;
 }
 
+/* mediaquery */
+@media (max-width: 767px) {
+    .img_play_acessories {
+        width: 100%;
+    } 
+}
 .wrapper_img_ratchet_returnal {
     margin-bottom: 80px;
 }
@@ -222,6 +220,7 @@ header {
 .img_playstation_console {
     width: 100%;
 }
+
 /* second section */
 *[class*="_second_section"] {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
@@ -242,6 +241,7 @@ header {
 .fourth_section {
     margin: 60px 0 100px 0;
 }
+
 /* fifth section */
 .ms_banner_third_section {
     background-color: #bebcbb;
@@ -266,7 +266,6 @@ header {
     background-color: #161c3b;
 }
 
-
 /* FOOTER */
 footer {
     color: white;
@@ -276,17 +275,17 @@ footer {
     font-size: 14px;
     color: white;
 }
+
 /* upper footer */
 .row_social > .col > img {
-    width: 100px;
+    width: 100%;
 }
 
 /* mediaquery */
 @media (max-width: 576px) {
     .row_social > .col > img {
         width: 100%;
-    }
-    
+    } 
 }
 
 /* bottom footer */
